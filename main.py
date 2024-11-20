@@ -76,7 +76,6 @@ if CROSS:
             elif mass[0] == "X" and mass[2] == "X" and mass[1] != "0":
                 answer = 1
                 i_elem = i
-
                 break
         elif "0" in mass and answer == -1:
             if mass[0] == "0" and mass[1] == "0" and mass[2] != "X":
